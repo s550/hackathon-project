@@ -61,9 +61,15 @@
     font-size: 1.2rem;
 }
 
-.thumbs {
-    width: 20px;
-}
+  .results:hover{
+      color: #0078d7;
+      text-decoration: none;
+  }
+
+  .thumbs{
+      width:20px;
+    
+  }
 
 .thumbs img {
     width: 100%;
@@ -95,4 +101,9 @@
 
 .btn-submitted {
     margin-top: 30px;
+}
+
+#result{
+    list-style: none;
+    padding:0;
 }
