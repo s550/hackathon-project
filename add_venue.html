@@ -10,6 +10,7 @@
     <meta name="author" content="Drift Word Team">
 
     <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css">
+    <link rel="stylesheet" href="drift-word.css">
     <link rel="stylesheet" href="add_venue.css">
 </head>
 
@@ -19,79 +20,81 @@
             <img src="./images/logo.png" alt="totally_a_logo" class="img-fluid logo">
         </div>
     </section>
-    <form action="venue_submitted.html" method="get" class="container add-venue-form">
-        <div class="form-header">
-            <h1>Add A Venue</h1>
-        </div>
-        <div class="col-sm-12">
-            <div class="form-group">
-                <div class="form-group row">
-                    <label for="venue-name" class="col-sm-3 col-form-label">Venue Name</label>
-                    <div class="col-sm-9">
-                        <input class="form-control" type="text" name="address" id="venue-address">
-                    </div>
-                </div>
-                <div class="form-group row">
-                    <label for="venue-name" class="col-sm-3 col-form-label">Address / Intersection</label>
-                    <div class="form-row col-sm-9">
-                        <div class="col-sm-7">
-                            <input class="form-control" type="text" name="name" id="venue-name">
-                        </div>
-                        <div class="col-sm-5">
-                            <a href="add_venue_filled.html" class="btn btn-info">Use My Location</a>
+    <section class="add-venue">
+        <form action="venue_submitted.html" method="get" class="container add-venue-form">
+            <div class="form-header">
+                <h1>Add A Venue</h1>
+            </div>
+            <div class="col-sm-12">
+                <div class="form-group">
+                    <div class="form-group row">
+                        <label for="venue-address" class="col-sm-3 col-form-label">Venue Name</label>
+                        <div class="col-sm-9">
+                            <input class="form-control" type="text" name="address" id="venue-address">
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="form-group row">
-                <div class="col-sm-3">Available Resources</div>
-                <div class="col-sm-3">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" name="bed" id="bed" value="true">
-                        <label class="form-check-label" for="bed">Bed</label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" name="shower" id="shower" value="true">
-                        <label class="form-check-label" for="shower">Shower</label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" name="charge" id="charge" value="true">
-                        <label class="form-check-label" for="charge">Outlets</label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" name="food" id="food" value="true">
-                        <label class="form-check-label" for="food">Food</label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" name="pet" id="pet" value="true">
-                        <label class="form-check-label" for="pet">Pet Stuff</label>
+                    <div class="form-group row">
+                        <label for="venue-name" class="col-sm-3 col-form-label">Address / Intersection</label>
+                        <div class="form-row col-sm-9">
+                            <div class="col-sm-7">
+                                <input class="form-control" type="text" name="name" id="venue-name">
+                            </div>
+                            <div class="col-sm-5">
+                                <a href="add_venue_filled.html" class="btn btn-info">Use My Location</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-sm-3">Bathrooms</div>
-                <div class="col-sm-3">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" name="men" id="men" value="true">
-                        <label class="form-check-label" for="pet">Men</label>
+                <div class="form-group row">
+                    <div class="col-sm-3"><label>Available Resources</label></div>
+                    <div class="col-sm-3">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="bed" id="bed" value="true">
+                            <label class="form-check-label" for="bed">Bed</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="shower" id="shower" value="true">
+                            <label class="form-check-label" for="shower">Shower</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="charge" id="charge" value="true">
+                            <label class="form-check-label" for="charge">Outlets</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="food" id="food" value="true">
+                            <label class="form-check-label" for="food">Food</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="pet" id="pet" value="true">
+                            <label class="form-check-label" for="pet">Pet Services</label>
+                        </div>
                     </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" name="women" id="women" value="true">
-                        <label class="form-check-label" for="pet">Women</label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" name="mixed" id="mixed" value="true">
-                        <label class="form-check-label" for="pet">Mixed</label>
+                    <div class="col-sm-3"><label>Bathrooms</label></div>
+                    <div class="col-sm-3">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="men" id="men" value="true">
+                            <label class="form-check-label" for="pet">Men</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="women" id="women" value="true">
+                            <label class="form-check-label" for="pet">Women</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="mixed" id="mixed" value="true">
+                            <label class="form-check-label" for="pet">Mixed</label>
+                        </div>
                     </div>
                 </div>
+                <div class="form-group row">
+                    <label for="notes" class="col-sm-3">Notes</label>
+                    <textarea class="form-control col-sm-9" name="notes" id="notes" rows="5" placeholder="Please enter any notes you wish to share"></textarea>
+                </div>
+                <div class="row justify-content-sm-center">
+                    <button type="submit" class="btn btn-info submit">Submit!</button>
+                </div>
             </div>
-            <div class="form-group row">
-                <label for="notes" class="col-sm-3">Notes</label>
-                <textarea class="form-control col-sm-9" name="notes" id="notes" rows="5" placeholder="Please enter any notes you wish to share"></textarea>
-            </div>
-            <div class="row justify-content-sm-center">
-                <button type="submit" class="btn btn-info submit">Submit!</button>
-            </div>
-            </div>
-    </form>
+        </form>
+    </section>
     <section class="footer">
         <p>&copy; 2018 - DriftWord</p>
     </section>

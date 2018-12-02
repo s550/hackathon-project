@@ -1,38 +1,22 @@
-.header {
-	background-color: #fff;
-	padding: 15px;
-	border-bottom: 2px solid #0078d7;
-	text-align: center;
-}
-.btn {
-	margin-top: -1px;
-	border: 1px solid;
-}
-.btn-info {
-	color:#fff;
-	background-color:#0078d7;
-	border-color:#0078d7
-}
 a:not([href]) {
 	color: #fff
 }
-.btn-info:hover {
-	color:#0078d7;
-	background-color:#fff;
-	border-color:#0078d7
-}
+
 .form-header {
-	margin-top: 10px;
+	margin: 30px 0;
 	text-align: center
 }
-.add-venue-form {
-	width: 700px;
+
+.add-venue {
+    margin: 30px 0;
 }
 
-.footer {
-	padding: 30px 0;
-	text-align: center;
-	text-transform: uppercase;
+label {
+    color: #000;
+}
+
+.add-venue-form {
+	width: 700px;
 }
 
 .submit {
