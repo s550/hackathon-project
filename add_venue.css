@@ -1,0 +1,40 @@
+.header {
+	background-color: #fff;
+	padding: 15px;
+	border-bottom: 2px solid #0078d7;
+	text-align: center;
+}
+.btn {
+	margin-top: -1px;
+	border: 1px solid;
+}
+.btn-info {
+	color:#fff;
+	background-color:#0078d7;
+	border-color:#0078d7
+}
+a:not([href]) {
+	color: #fff
+}
+.btn-info:hover {
+	color:#0078d7;
+	background-color:#fff;
+	border-color:#0078d7
+}
+.form-header {
+	margin-top: 10px;
+	text-align: center
+}
+.add-venue-form {
+	width: 700px;
+}
+
+.footer {
+	padding: 30px 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.submit {
+	margin: auto;
+}
