@@ -108,6 +108,7 @@
     padding:0;
 }
 
+<<<<<<< Updated upstream
 #result li {
     border-bottom: 2px solid #0078d7;
     padding: 10px 0;
@@ -131,4 +132,9 @@
 
 .thumb-status .icon-thumbs-down {
     color: #ff4c4c;
+=======
+#space-fix{
+    list-style: none;
+    padding:0;
+>>>>>>> Stashed changes
 }
