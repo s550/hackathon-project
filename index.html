@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,51 +9,76 @@
     <link rel="stylesheet" href="./drift-word.css">
     <title>Drift Word</title>
 </head>
+
 <body>
-    <div class="container">
-        <img src="./images/logo.png" alt="totally_a_logo" class="logo">
-    <div class="search-bar">
-        <input type="text" name="search" placeholder="Enter Search Term">
-        <button class="btn btn-primary">Submit</button>
-    </div>
-    </div>
-    <!-- bed,food,pet,health,shower,charger -->
-    <div class="container">
-    <div class="row">
-            <div class="col-md-4 square">
-            <a href="#">
-                <img src="./images/bed_icon.png" alt="totally_a_bed" class="icon">
-            </a>
-            </div>
-            <div class="col-md-4 square">
-            <a href="./mappage.html">
-                <img src="./images/food_icon.png" alt="totally_some_food" class="icon"> 
-            </a>
-            </div>
-            <div class="col-md-4 square">
-            <a href="#">
-                <img src="./images/charger_icon.png" alt="totally_charge_ur_phone" class="icon">
-            </a>
-            </div>
-    </div>
-    <div class="row">
-            <div class="col-md-4 square">
-            <a href="#">
-                <img src="./images/bathroom_icon.png" alt="take_a_sh.." class="icon">
-            </a>
-            </div>
-            <div class="col-md-4 square">
-            <a href="#">
-                <img src="images/shower_icon.png" alt="take_a_shower" class="icon">
-            </a>
-            </div>
-            <div class="col-md-4 square">
-            <a href="#">
-            <img src="./images/pet_icon.png" alt="totally_ur_pet" class="icon">
-           </a>
-           </div>
+    <section class="header">
+        <div class="container">
+            <img src="./images/logo.png" alt="totally_a_logo" class="img-fluid logo">
         </div>
-    </div>
-</div>
+    </section>
+    
+    <section class="search-form">
+        <div class="container">
+            <form class="search-bar">
+                <div class="form-row">
+                    <div class="col-sm-8">
+                        <input type="text" name="search" class="form-control" placeholder="How can we be of assistance?">
+                    </div>
+                    <div class="col-sm-4">
+                        <button type="submit" class="btn btn-primary">Find it!</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    
+    <!-- bed,food,pet,health,shower,charger -->
+    <section class="grid">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-4 square">
+                    <a href="#">
+                        <img src="./images/bed_icon.png" alt="totally_a_bed" class="icon">
+                        <span class="label">Bed</span>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4 square">
+                    <a href="./mappage.html">
+                        <img src="./images/food_icon.png" alt="totally_some_food" class="icon">
+                        <span class="label">Food</span>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4 square">
+                    <a href="#">
+                        <img src="./images/charger_icon.png" alt="totally_charge_ur_phone" class="icon">
+                        <span class="label">Power</span>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4 square">
+                    <a href="#">
+                        <img src="./images/bathroom_icon.png" alt="take_a_sh.." class="icon">
+                        <span class="label">Bathroom</span>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4 square">
+                    <a href="#">
+                        <img src="images/shower_icon.png" alt="take_a_shower" class="icon">
+                        <span class="label">Shower</span>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4 square">
+                    <a href="#">
+                        <img src="./images/pet_icon.png" alt="totally_ur_pet" class="icon">
+                        <span class="label">Pet Services</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="footer">
+        <p>&copy; 2018 - DriftWord</p>
+    </section>
 </body>
-</html> 
+
+</html>
