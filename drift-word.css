@@ -79,7 +79,10 @@
     max-width: 700px;
     margin: auto;
 }
-
+.grid-extended {
+    max-width: 960px;
+    margin: auto;
+}
 .label {
     position: relative;
     bottom: 20px;
