@@ -137,3 +137,23 @@
     list-style: none;
     padding:0;
 }
+
+.trustscore {
+    border-top: 2px solid #0078d7;
+    margin: 0 auto 30px;
+}
+.trustscore .thumb-status {
+    border-bottom: 2px solid #0078d7;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.trustscore .icon {
+    font-size: 64px;
+}
+
+.rate-this .row {
+    align-items: center;
+}
+.rate-this .icon {
+    font-size: 24px;
+}
