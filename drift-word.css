@@ -1,0 +1,42 @@
+.square{
+    border: 2px solid #0078d7;
+    background-color:#fff;
+    
+    
+    
+}
+
+.square:hover{
+    background-color:#0078d7;
+    border: solid 2px #fff;
+}
+
+.icon{
+    width:100%;
+    
+    
+}
+
+.search-bar{
+    margin:20px;
+    text-align:center
+}
+
+.search-bar input{
+    width: 80%;
+    border-radius: 10px;
+    border: 1px solid #0078d7;
+  }
+
+  .btn{
+      padding: 5px 25px;
+      background-color: #0078d7;
+  }
+
+  .btn:hover{
+      background-color:#fff;
+      border:2px solid #0078d7;
+      color: #0078d7;
+  }
+
+ 
