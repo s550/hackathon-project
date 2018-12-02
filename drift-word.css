@@ -46,6 +46,7 @@
 .btn {
     background-color: #0078d7;
     width: 100%;
+    border: 2px solid #fff;
 }
 
 .btn:hover {
