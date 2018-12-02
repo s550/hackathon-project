@@ -107,3 +107,28 @@
     list-style: none;
     padding:0;
 }
+
+#result li {
+    border-bottom: 2px solid #0078d7;
+    padding: 10px 0;
+}
+
+.map {
+    margin-bottom: 30px;
+}
+
+.thumb-status {
+    text-align: right;
+}
+
+.thumb-status .icon {
+    font-size: 46px;
+}
+
+.thumb-status .icon-thumbs-up {
+    color: #34bf49;
+}
+
+.thumb-status .icon-thumbs-down {
+    color: #ff4c4c;
+}
