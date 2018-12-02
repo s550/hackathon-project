@@ -61,6 +61,11 @@
       font-size: 1.2rem;
   }
 
+  .results:hover{
+      color: #0078d7;
+      text-decoration: none;
+  }
+
   .thumbs{
       width:20px;
     
@@ -87,4 +92,9 @@
     padding: 30px 0;
     text-align: center;
     text-transform: uppercase;
+}
+
+#result{
+    list-style: none;
+    padding:0;
 }
