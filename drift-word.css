@@ -39,4 +39,17 @@
       color: #0078d7;
   }
 
- 
+  .results{
+      text-decoration: none;
+      cursor: pointer;
+      font-size: 1.2rem;
+  }
+
+  .thumbs{
+      width:20px;
+    
+  }
+
+  .thumbs img{
+      width:100%;
+  }
